@@ -8,6 +8,6 @@ class Car(ABC):
         self.tires=tires
 
     def needs_service(self):
-        self.engine.needs_service() or self.battery.needs_service()
+        self.engine.needs_service() or self.battery.needs_service() or self.battery.needs_service()
         
 
